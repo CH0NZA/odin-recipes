@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    /* outline: 1px red solid; */
+    outline: 1px red solid;
 }
 
 body {
@@ -18,13 +18,17 @@ p {
     margin: 5px auto;
 }
 
-div.pupusas-container,
-div.enchiladas-container {
-    padding: 10px;
+h2 {
+    margin: auto;
+    text-align: center;
 }
 
-div.pupusas-container .content,
-div.enchiladas-container .content{
+.food-container {
     display: flex;
 }
 
+.food-1-pupusas,
+.food-2-enchiladas {
+    display: flex;
+    justify-content: center;
+}
