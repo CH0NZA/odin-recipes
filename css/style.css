@@ -1,6 +1,6 @@
 * {
     margin: 0 auto;
-    outline: 2px red solid;
+    /* outline: 2px red solid; */
     box-sizing: border-box;
 }
 
@@ -14,13 +14,13 @@ h1 {
     margin-bottom: 10px
 }
 
-div.pupusas,
-div.enchiladas {
+div.pupusas-container,
+div.enchiladas-container {
     padding: 10px;
 }
 
-div.pupusas .content,
-div.enchiladas .content{
+div.pupusas-container .content,
+div.enchiladas-container .content{
     display: flex;
 }
 
