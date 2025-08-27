@@ -1,5 +1,7 @@
 * {
     margin: 0 auto;
+    /* outline: 2px red solid; */
+    box-sizing: border-box;
 }
 
 body {
@@ -10,4 +12,13 @@ h1 {
     text-align: center;
     border-bottom: 1px solid black;
     margin-bottom: 10px
+}
+
+div.pupusas,
+div.enchiladas {
+    padding: 10px;
+}
+
+div.pupusas .content{
+    display: flex;
 }
